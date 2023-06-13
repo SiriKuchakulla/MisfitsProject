@@ -45,6 +45,7 @@ navbar{
 
 .nav_links li a{
     transition: all 0.3s ease 0s;
+    font-size: 20px;
 }
 
 .nav_links li a:hover{
@@ -54,6 +55,7 @@ navbar{
 
 
 button{
+    text-align: center;
     background-color: rgba(255,165,0,0.5);
     color: black;
     padding: 0.5rem 1rem;
@@ -91,7 +93,16 @@ button:hover{
     color: rgb(62, 61, 61);
 }
 
+.query a {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
 
-.fa-regular{
-    color: red;
+.query .footer{
+    border-radius: 50px;
+}
+
+.query :hover{
+    transform: scale(1.1);
 }
